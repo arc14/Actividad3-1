@@ -9,6 +9,11 @@ package geometria;
  *
  * @author javier
  */
+
+//---------------------------
+// Clase Resctangulo cuya funcion es la de en base a dos variables, base y altura, nos calcule el area
+// de esta multiplicando ambos valores.
+//---------------------------
 public class Rectangulo implements FiguraGeometrica
 {
     private double base;

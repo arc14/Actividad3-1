@@ -11,10 +11,15 @@ package geometria;
  */
 public class Circulo implements FiguraGeometrica 
 {
+	
     private double radio;
     private double areaRadio;
     static final double pi = 3.1415;
 
+    // Se definen los metodos contructores get y set
+    // Los get sirven para obtener el valor de la variable que necesitemos y
+    // los set sirven para dar valor a la variable que queramos
+    
     public Circulo(double radio) 
     {
         this.radio = radio;
@@ -35,6 +40,7 @@ public class Circulo implements FiguraGeometrica
         return areaRadio;
     }
 
+    // funcion que realiza el area matematicamente
     @Override
     public void area() 
     {
